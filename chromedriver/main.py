@@ -42,9 +42,9 @@ def check_for_element_class_name(element, rez="0"):
     if (rez == '0'):return chek
     else:return True
 
-def delimiter(prov='',rez=''):
+def delimiter(*text):
     print("-" * 30)
-    print(prov,rez)
+    print(*text)
 
 def case_rez(boolean):
     if(boolean):return 'Есть'
