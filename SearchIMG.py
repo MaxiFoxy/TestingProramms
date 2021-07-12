@@ -27,7 +27,7 @@ try:
     save_obj = item[0].text
     browser.implicitly_wait(5)
     time.sleep(2)
-    rez.append(case_rez(main.read_get_request(browser)['text']==save_obj))
+    rez.append(case_rez(main.read_get_request(browser)['text'] == save_obj))
     delimiter(prov[2], rez[2])
 
     img = browser.find_elements_by_class_name('serp-item__link')

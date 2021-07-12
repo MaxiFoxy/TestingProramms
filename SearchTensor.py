@@ -22,7 +22,7 @@ try:
     #for i in suggest:
     #   print(i.text)
 
-    rez.append(case_rez(main.check_for_element_class_name('mini-suggest__item_type_fulltext',1)))
+    rez.append(case_rez(main.check_for_element_class_name('mini-suggest__item_type_fulltext', 1)))
     delimiter(prov[1],rez[1])
     time.sleep(2)
 

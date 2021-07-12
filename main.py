@@ -5,7 +5,7 @@ from urllib.parse import unquote
 from selenium.webdriver.common.keys import Keys
 
 starturl = "https://yandex.ru/"
-driver = webdriver.Chrome(executable_path=".\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="chromedriver.exe")
 
 
 def data_input(type_elment, element, send):
